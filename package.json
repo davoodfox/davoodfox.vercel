@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "next dev ./src",
+    "build": "next build ./src",
+    "start": "next start ./src"
   },
   "dependencies": {
+    "@xstate/react": "^1.2.2",
+    "antd": "^4.11.2",
     "next": "10.0.6",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "xstate": "^4.16.0"
   }
 }
